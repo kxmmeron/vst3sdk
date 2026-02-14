@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1464C22956384D579FE3FDC5 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C6C4BFE7030E4C5AA578B7E4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AE69C8D2398A82E428096496 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		630CC1C3A341409898B16D63 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2CC19570467148E7B8B541A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0967A1995FC21C705D6F1E96 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B8A625933A8E4132BBB1145E /* PBXTargetDependency */,
+				AAD029998FB3487481787DDB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02759C6D7E4A4BA293C5144B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 7E2B8646189E4B16A575258D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */; };
+		05476FF6B22D4D3EA0D3CF33 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXBuildFile; fileRef = 57E99152DB434BBD9EAE3B44 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */; };
+		08A4669D929B4D3294D5E5C5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7EF2779D37A84FA7B2BF1C1D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */; };
+		101C5BE82E3641F7A2A7C3F1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXBuildFile; fileRef = 9D66D38E9F36497AA335F14C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */; };
+		1FFFEA7C5D744C91B552A40F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXBuildFile; fileRef = 1EA144C2DB4E4193B7ECE682 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */; };
+		208CD0CEB1B24CD2AB2035D3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXBuildFile; fileRef = A7061B1F0FE2402C9B020568 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */; };
+		26E90C92B52D44EEAA75EE14 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXBuildFile; fileRef = 4C6CB7B9C39B41288AB93C0C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */; };
+		38FD8F2885374323AB0DEC2D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXBuildFile; fileRef = 6CB11F156E8A42FC9FD20259 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */; };
+		391EA03A1F554627A1D63627 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXBuildFile; fileRef = A2D45811A6E548DC97A1DCC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */; };
+		39DFE5AB53E04E73BE798562 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = BBF13C045D91437A8500944F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		3CB6BA59D2524E48951D119E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXBuildFile; fileRef = D98F4F721F3C46BBA634171E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */; };
+		3F4821DC1F554426A7DDAA89 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = 8C698055B02A40B8B254BFD9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */; };
+		41679177F2CC46E8A049D2F0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXBuildFile; fileRef = 47E3B4BE11DE4417B899D0AC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */; };
+		45E5C640F7084D808BF252FF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXBuildFile; fileRef = 65EB610A49F944019CEE58B7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */; };
+		498E8FC5EA4D4DBA91D8040F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXBuildFile; fileRef = 90CC3F75EB7F4563804CF6FC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */; };
+		6DA63D0ACBE2415397E8C7E9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXBuildFile; fileRef = 21B304D55DD14AEBBF053AB3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */; };
+		91ADB02E0C4C4B24B0275FD8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXBuildFile; fileRef = E40B9F85A67C4EC58E62F212 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */; };
+		930978619FD249228D4899CF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXBuildFile; fileRef = 738F8C469D4F43BFAB7FB5AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */; };
+		9E10258966A3437FBDFF4042 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXBuildFile; fileRef = ADA0C2B5ADDC432BBB800603 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */; };
+		AC7F8C4016D94FBCBF5E1EA6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXBuildFile; fileRef = AE131292D38C4EF99D61A049 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */; };
+		AFD6DE7B9D57440181093127 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = BFD83C5F28EE4ACD9F0BC60F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */; };
+		B251DE1A97A54D479B680D40 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXBuildFile; fileRef = A9D16585791644E1BA5C0460 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */; };
+		D25482B464D74674BE0C6D89 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXBuildFile; fileRef = A880393C5A794A77A8B923F9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */; };
+		D562D1496F5A4724BEFB1209 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXBuildFile; fileRef = 169504DDA1374AF9A3B36DAC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */; };
+		D6430B9DD669426AA7E805E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXBuildFile; fileRef = 558996C14CF349B7AA244642 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */; };
+		E235747C36384E22AA99A731 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = A24A6AF640044F0797AF2178 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */; };
+		F1C0352805AD42E1ACF3E37E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXBuildFile; fileRef = 854A2593EDB84C88B299FCFF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */; };
+		F732B46A2FA34238864B5F68 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXBuildFile; fileRef = AE9C8E65FF0A46CFAF194FE5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */; };
+		FC39EC3D0A5D459D8D5CA626 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXBuildFile; fileRef = 68A7B1518BC549449F555806 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		32C096CE7E7243059AFDA300 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A990C93D9A944B689A7E4994 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		A59721D45993483A8D6AF745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E37D4BAE1748068A918B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1464C22956384D579FE3FDC5;
+			remoteInfo = ZERO_CHECK;
+		};
+		B25ED0680CD446789CD570E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E37D4BAE1748068A918B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1313BE4A244420D81B10430;
+			remoteInfo = "host-checker";
+		};
+		B3518FCF4FD648EF9F801788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E37D4BAE1748068A918B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1464C22956384D579FE3FDC5;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035E9BB4B8FB4BB98768C3C6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		169504DDA1374AF9A3B36DAC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogger.cpp; path = source/eventlogger.cpp; sourceTree = SOURCE_ROOT; };
+		1EA144C2DB4E4193B7ECE682 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = editorsizecontroller.h; path = source/editorsizecontroller.h; sourceTree = SOURCE_ROOT; };
+		21B304D55DD14AEBBF053AB3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchangescheck.cpp; path = source/parameterchangescheck.cpp; sourceTree = SOURCE_ROOT; };
+		47E3B4BE11DE4417B899D0AC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		4C6CB7B9C39B41288AB93C0C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckerprocessor.h; path = source/hostcheckerprocessor.h; sourceTree = SOURCE_ROOT; };
+		558996C14CF349B7AA244642 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheck.cpp; path = source/hostcheck.cpp; sourceTree = SOURCE_ROOT; };
+		57E99152DB434BBD9EAE3B44 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheckercontroller.h; path = source/hostcheckercontroller.h; sourceTree = SOURCE_ROOT; };
+		65EB610A49F944019CEE58B7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logevents.h; path = source/logevents.h; sourceTree = SOURCE_ROOT; };
+		68A7B1518BC549449F555806 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processsetupcheck.cpp; path = source/processsetupcheck.cpp; sourceTree = SOURCE_ROOT; };
+		6CB11F156E8A42FC9FD20259 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = bypass.png; path = resource/bypass.png; sourceTree = SOURCE_ROOT; };
+		738F8C469D4F43BFAB7FB5AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchangescheck.h; path = source/parameterchangescheck.h; sourceTree = SOURCE_ROOT; };
+		7E2B8646189E4B16A575258D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckerprocessor.cpp; path = source/hostcheckerprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		7EF2779D37A84FA7B2BF1C1D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		854A2593EDB84C88B299FCFF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlistcheck.h; path = source/eventlistcheck.h; sourceTree = SOURCE_ROOT; };
+		8C698055B02A40B8B254BFD9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogdatabrowsersource.h; path = source/eventlogdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
+		90CC3F75EB7F4563804CF6FC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cids.h; path = source/cids.h; sourceTree = SOURCE_ROOT; };
+		9D66D38E9F36497AA335F14C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlogger.h; path = source/eventlogger.h; sourceTree = SOURCE_ROOT; };
+		A24A6AF640044F0797AF2178 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlogdatabrowsersource.cpp; path = source/eventlogdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
+		A2D45811A6E548DC97A1DCC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostcheckercontroller.cpp; path = source/hostcheckercontroller.cpp; sourceTree = SOURCE_ROOT; };
+		A7061B1F0FE2402C9B020568 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = editorsizecontroller.cpp; path = source/editorsizecontroller.cpp; sourceTree = SOURCE_ROOT; };
+		A880393C5A794A77A8B923F9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = hostchecker.uidesc; path = resource/hostchecker.uidesc; sourceTree = SOURCE_ROOT; };
+		A9D16585791644E1BA5C0460 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = knob.png; path = resource/knob.png; sourceTree = SOURCE_ROOT; };
+		ADA0C2B5ADDC432BBB800603 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextcheck.h; path = source/processcontextcheck.h; sourceTree = SOURCE_ROOT; };
+		AE131292D38C4EF99D61A049 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlistcheck.cpp; path = source/eventlistcheck.cpp; sourceTree = SOURCE_ROOT; };
+		AE9C8E65FF0A46CFAF194FE5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostcheck.h; path = source/hostcheck.h; sourceTree = SOURCE_ROOT; };
+		BBF13C045D91437A8500944F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		BE63B95C02E840D4AAE003DE /* host-checker */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "host-checker.bundle/Contents/MacOS/host-checker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD83C5F28EE4ACD9F0BC60F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		D98F4F721F3C46BBA634171E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processcontextcheck.cpp; path = source/processcontextcheck.cpp; sourceTree = SOURCE_ROOT; };
+		E40B9F85A67C4EC58E62F212 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processsetupcheck.h; path = source/processsetupcheck.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4536BE8C484D5C9ED2A4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084AD51E537348538FAECE52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE63B95C02E840D4AAE003DE /* host-checker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FC0BE75B2F4C8F939BFE7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CB11F156E8A42FC9FD20259 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				A9D16585791644E1BA5C0460 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		12E3175C2AFB4657A0563D79 /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				A2C39B316DCA40F29A9AE766 /* host-checker */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		215D1DA3E38C4DDAAB39EB29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F76597FE28E4A38BC509652 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		85EC6AB827A34B1FACF427D5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7061B1F0FE2402C9B020568 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				AE131292D38C4EF99D61A049 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				A24A6AF640044F0797AF2178 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				169504DDA1374AF9A3B36DAC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				BFD83C5F28EE4ACD9F0BC60F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				558996C14CF349B7AA244642 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				A2D45811A6E548DC97A1DCC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				7E2B8646189E4B16A575258D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				21B304D55DD14AEBBF053AB3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				D98F4F721F3C46BBA634171E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				68A7B1518BC549449F555806 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				BBF13C045D91437A8500944F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A2C39B316DCA40F29A9AE766 /* host-checker */ = {
+			isa = PBXGroup;
+			children = (
+				B24FAA898A254A0EB9377891 /* Header Files */,
+				85EC6AB827A34B1FACF427D5 /* Source Files */,
+				09FC0BE75B2F4C8F939BFE7D /* Resources */,
+				7EF2779D37A84FA7B2BF1C1D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+				A880393C5A794A77A8B923F9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+			);
+			name = "host-checker";
+			sourceTree = "<group>";
+		};
+		B24FAA898A254A0EB9377891 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				90CC3F75EB7F4563804CF6FC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/cids.h */,
+				1EA144C2DB4E4193B7ECE682 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h */,
+				854A2593EDB84C88B299FCFF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.h */,
+				8C698055B02A40B8B254BFD9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h */,
+				9D66D38E9F36497AA335F14C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h */,
+				AE9C8E65FF0A46CFAF194FE5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.h */,
+				57E99152DB434BBD9EAE3B44 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h */,
+				4C6CB7B9C39B41288AB93C0C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h */,
+				65EB610A49F944019CEE58B7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h */,
+				738F8C469D4F43BFAB7FB5AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h */,
+				ADA0C2B5ADDC432BBB800603 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h */,
+				E40B9F85A67C4EC58E62F212 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.h */,
+				47E3B4BE11DE4417B899D0AC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E2DF4273418A442BBB6DF5D2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5F76597FE28E4A38BC509652 /* CMake Rules */,
+				035E9BB4B8FB4BB98768C3C6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E5E8F4A99E804F90A472B95F = {
+			isa = PBXGroup;
+			children = (
+				12E3175C2AFB4657A0563D79 /* PlugIn-Examples */,
+				E2DF4273418A442BBB6DF5D2 /* ALL_BUILD */,
+				084AD51E537348538FAECE52 /* Products */,
+				215D1DA3E38C4DDAAB39EB29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1313BE4A244420D81B10430 /* host-checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C7868C9B2441D5B7C3BA27 /* Build configuration list for PBXNativeTarget "host-checker" */;
+			buildPhases = (
+				D879B8BF7691362D2B31FA5A /* CMake PreBuild Rules */,
+				230F6094815A49D7BEC49D19 /* Resources */,
+				5165565AE5BD476DB61FEB4B /* Sources */,
+				FF4536BE8C484D5C9ED2A4E2 /* Frameworks */,
+				818E701F904CBC85ED3D9767 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4B8CF1279D44CBB4A9CFF1 /* PBXTargetDependency */,
+			);
+			name = "host-checker";
+			productName = "host-checker";
+			productReference = BE63B95C02E840D4AAE003DE /* host-checker */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E37D4BAE1748068A918B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
+			};
+			buildConfigurationList = F446FA71BF1440F385B3EBE3 /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A990C93D9A944B689A7E4994 /* Debug */,
+				32C096CE7E7243059AFDA300 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E5E8F4A99E804F90A472B95F;
+			projectDirPath = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker;
+			projectRoot = "";
+			targets = (
+				630CC1C3A341409898B16D63 /* ALL_BUILD */,
+				1464C22956384D579FE3FDC5 /* ZERO_CHECK */,
+				D1313BE4A244420D81B10430 /* host-checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0967A1995FC21C705D6F1E96 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		818E701F904CBC85ED3D9767 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/host-checker.vst3
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.8.0.0 -path /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/host-checker.vst3 -compat /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/vst_compatibility.json -output /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  codesign -f -s - -v /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator started...
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Debug/validator /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/host-checker.vst3 
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Delete previous link...
+  rm -rf /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/host-checker.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Create new symlink...
+  ln -sv /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/host-checker.vst3 /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/host-checker.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Finished.
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  codesign --force --verbose --sign - /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/host-checker.vst3
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.8.0.0 -path /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/host-checker.vst3 -compat /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/vst_compatibility.json -output /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  codesign -f -s - -v /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/host-checker.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator started...
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Release/validator  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/host-checker.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Delete previous link...
+  rm -rf /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/host-checker.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Create new symlink...
+  ln -sv /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/host-checker.vst3 /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/host-checker.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Finished.
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AE69C8D2398A82E428096496 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  make -f /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  make -f /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D879B8BF7691362D2B31FA5A /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/host-checker.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/host-checker.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230F6094815A49D7BEC49D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FD8F2885374323AB0DEC2D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/bypass.png */,
+				D25482B464D74674BE0C6D89 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc */,
+				B251DE1A97A54D479B680D40 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/resource/knob.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5165565AE5BD476DB61FEB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208CD0CEB1B24CD2AB2035D3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp */,
+				AC7F8C4016D94FBCBF5E1EA6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp */,
+				E235747C36384E22AA99A731 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp */,
+				D562D1496F5A4724BEFB1209 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.cpp */,
+				AFD6DE7B9D57440181093127 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/factory.cpp */,
+				D6430B9DD669426AA7E805E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheck.cpp */,
+				391EA03A1F554627A1D63627 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp */,
+				02759C6D7E4A4BA293C5144B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp */,
+				6DA63D0ACBE2415397E8C7E9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp */,
+				3CB6BA59D2524E48951D119E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp */,
+				FC39EC3D0A5D459D8D5CA626 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp */,
+				39DFE5AB53E04E73BE798562 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA4B8CF1279D44CBB4A9CFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1464C22956384D579FE3FDC5 /* ZERO_CHECK */;
+			targetProxy = B3518FCF4FD648EF9F801788 /* PBXContainerItemProxy */;
+		};
+		AAD029998FB3487481787DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1464C22956384D579FE3FDC5 /* ZERO_CHECK */;
+			targetProxy = A59721D45993483A8D6AF745 /* PBXContainerItemProxy */;
+		};
+		B8A625933A8E4132BBB1145E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1313BE4A244420D81B10430 /* host-checker */;
+			targetProxy = B25ED0680CD446789CD570E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D3AF93E2C4A44A4A35B284F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4896660C5B5840A494830995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		61454ED9B546422D89C7DC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7AC6E1278055423A9ED45B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",host_checker_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/host-checker.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-stdlib=libc++' '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libvstgui_support.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libsdk.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/lib/libexpat.tbd,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libsdk_common.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libbase.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.host-checker";
+				PRODUCT_NAME = "host-checker";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build/host-checker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		7B7F3C348BC84B68AC9A830A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+		82FC8E5D6F2D490A9C41C9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",host_checker_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/hostchecker/CMakeFiles/host-checker.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-stdlib=libc++' '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libvstgui_support.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libsdk.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/lib/libexpat.tbd,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libbase.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.host-checker";
+				PRODUCT_NAME = "host-checker";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build/host-checker.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		98036FE5FFDE4372863A8713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9F5B89D08240491D95C972C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC19570467148E7B8B541A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3AF93E2C4A44A4A35B284F /* Debug */,
+				61454ED9B546422D89C7DC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		56C7868C9B2441D5B7C3BA27 /* Build configuration list for PBXNativeTarget "host-checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FC8E5D6F2D490A9C41C9AA /* Debug */,
+				7AC6E1278055423A9ED45B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C6C4BFE7030E4C5AA578B7E4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5B89D08240491D95C972C5 /* Debug */,
+				98036FE5FFDE4372863A8713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F446FA71BF1440F385B3EBE3 /* Build configuration list for PBXProject "smtg-vst3-hostchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7F3C348BC84B68AC9A830A /* Debug */,
+				4896660C5B5840A494830995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85E37D4BAE1748068A918B6B /* Project object */;
+}

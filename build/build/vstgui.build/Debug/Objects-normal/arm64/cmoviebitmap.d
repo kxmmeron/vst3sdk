@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VSTGUI.build/vstgui/lib/CMakeFiles/vstgui.dir/Debug/cmake_pch.hxx \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cviewcontainer.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/vstguifwd.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/vstguibase.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/vstguidebug.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cview.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cpoint.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/crect.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/vstkeycode.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cbuttonstate.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cgraphicstransform.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cdrawdefs.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cdrawcontext.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cfont.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/cstring.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/optional.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/platform/iplatformstring.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/ccolor.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/clinestyle.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/cmoviebitmap.cpp \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/cmoviebitmap.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../cview.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../ifocusdrawing.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../vstguifwd.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../cbitmap.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../cpoint.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../crect.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../cresourcedescription.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../vstguibase.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../pixelbuffer.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../platform/iplatformbitmap.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../platform/../vstguifwd.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../cdrawcontext.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../private/disabledeprecatedmessage.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/lib/controls/../private/enabledeprecatedmessage.h

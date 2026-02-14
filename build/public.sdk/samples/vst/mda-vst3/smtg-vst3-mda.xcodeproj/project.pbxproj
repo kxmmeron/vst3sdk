@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1464C22956384D579FE3FDC5 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 950C2A2B1FC14A46AB080663 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6B7A0069EE7351133E78732C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		630CC1C3A341409898B16D63 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8DB342B7EAC9484D822F8319 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A41D87B61D398E2FA0496BAA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				709BB88818BA4341BD35CB53 /* PBXTargetDependency */,
+				D21DDB96EBB142B9BFBC6CCB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		012BF2CD9152478FB2371B6D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */ = {isa = PBXBuildFile; fileRef = 4EAF5C4F0C294E23A23915F0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */; };
+		02357BEAE4664228A78AEB43 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */ = {isa = PBXBuildFile; fileRef = F02857E1159A4C34831D6AF9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */; };
+		03978C9A6FB048BDB699E500 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */ = {isa = PBXBuildFile; fileRef = D446FBB1827844868B410F6A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */; };
+		050FA2C1812C4B87B8E0C653 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */ = {isa = PBXBuildFile; fileRef = D496D4AB00794918817B0A6C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */; };
+		053DA43E29C745539E6DAAA9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */ = {isa = PBXBuildFile; fileRef = 106C4748107248918D12CB2D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */; };
+		05B895EBAF0441D6A69ABE7D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */ = {isa = PBXBuildFile; fileRef = DD2B038494B44DBFAC1858F0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */; };
+		05BA680DE5A54C37BB222E82 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = AD517645489F43768137A15E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */; };
+		05F8E01053AC4BB29870ECB3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */ = {isa = PBXBuildFile; fileRef = E580ACA5E61343F19AD51016 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */; };
+		0742F0A96E5543F0878DF22D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */ = {isa = PBXBuildFile; fileRef = 137B6582AFE442AE893880EB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */; };
+		0C62E97247B6477B890789C0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */ = {isa = PBXBuildFile; fileRef = 5C31D533D8354D4DA084D67E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */; };
+		10A0785DA39045D69A5F922F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */ = {isa = PBXBuildFile; fileRef = 8725AA4436894E218D57FD4E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */; };
+		127EA1594820434EAE0C54B9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */ = {isa = PBXBuildFile; fileRef = 1B160C6AD307476B81EA604A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */; };
+		14221406512947B095AECA2F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */ = {isa = PBXBuildFile; fileRef = 7B4F3D1DF7EF49E79C876604 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */; };
+		14F74520E24F42C1A22F3520 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */ = {isa = PBXBuildFile; fileRef = D1D789FC6E0F452095357A38 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */; };
+		197F246698AC409E8EF547DD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */ = {isa = PBXBuildFile; fileRef = F59C0CB6F0AD45E587291CB5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */; };
+		19E0AA3E64BD43FC993A05CF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */ = {isa = PBXBuildFile; fileRef = 8186C457224F4A6A9C55E2E1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */; };
+		1AF46E8C214546D9B6226ACB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */ = {isa = PBXBuildFile; fileRef = 8995F6CA23CE47B88B4B4F29 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */; };
+		1B28EE1506F648CE9FA1E541 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */ = {isa = PBXBuildFile; fileRef = 47ED2D79A8E642AAB31600C6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */; };
+		201DABE9E6494F43882E26B0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */ = {isa = PBXBuildFile; fileRef = E166B8A346C64F8598C87657 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */; };
+		204E196EE88741CA8262FB1B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */ = {isa = PBXBuildFile; fileRef = C80C85BB63654F38A964A40D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */; };
+		211B4EB548134DEFA973916E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 4D969A58B3264FDE80E2B69D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */; };
+		2296A2AB9FA0474EA8F5C70B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */ = {isa = PBXBuildFile; fileRef = CF0A6931F0D94CA7AF0110E8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */; };
+		246EFEA2F4B24E1FBF83251D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 64A6F74342AD47F3A2E5F480 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */; };
+		26C95FA0AD294A548AC7DB26 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */ = {isa = PBXBuildFile; fileRef = 6DC62EC098324595A53839A1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */; };
+		28B3435A9B4E4DCBA3FAFF5E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */ = {isa = PBXBuildFile; fileRef = 1B75AFDB656F4252B12DA383 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */; };
+		298326C1088B4BBDA168F9C4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 30759A858175444F9A6B66D0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */; };
+		2D179A762F1B4DF3B1726194 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */ = {isa = PBXBuildFile; fileRef = AD3DB80971C7463CB5CA0D13 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */; };
+		31D80A8898DE44B5865CA878 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */ = {isa = PBXBuildFile; fileRef = B62F504055CE4BAA8EB3DCD9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */; };
+		335104A91667465B926F6BB3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */ = {isa = PBXBuildFile; fileRef = 855DFC5245004785A672704F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */; };
+		33668F05821A43A1AB28B7ED /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */ = {isa = PBXBuildFile; fileRef = 4DD02F725D294FD8A9F6766F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */; };
+		339EDB903CDC45038DE6699E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */ = {isa = PBXBuildFile; fileRef = 7E770D687DAE46BCAA7A0A6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */; };
+		3538D29443D24549BE6057DC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */ = {isa = PBXBuildFile; fileRef = 0661C45F571F46468EBA9CEB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */; };
+		35EE45AE9E4343B4B0AE781C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 33611751C56F448EAFF33B53 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */; };
+		38153C0855324FD4A5017EAC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */ = {isa = PBXBuildFile; fileRef = CB5371D64C194D81B8AEABB2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */; };
+		384E96451C594D2780A239C9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 7C0D23FBAA1C4603B57C2787 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */; };
+		3AD8E773E80B44029A9703E7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 65D0CB89B94849A39CCFBF35 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */; };
+		3C0B3B5D9C77460B95A52492 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */ = {isa = PBXBuildFile; fileRef = 263954AC6DA3409A9A14E015 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */; };
+		3CFAB457D1424E258AF0A294 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */ = {isa = PBXBuildFile; fileRef = D2167861012447D7856CC097 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */; };
+		455C37E63A0F4220B1AA63E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 074FF6CF52734AAF8A0B68E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */; };
+		485434A7E0CA483BA946CCA7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */ = {isa = PBXBuildFile; fileRef = D9A367E5FDDB4986918D0B8E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */; };
+		4999B7F3BBB84D5BBFBD0C20 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */ = {isa = PBXBuildFile; fileRef = 38721FE176314AF89B258464 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */; };
+		4C878DE4617D491C8B1CE9AD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */ = {isa = PBXBuildFile; fileRef = E29765558B904E62A1B3088B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */; };
+		4CAF461025624A86A86B04A7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */ = {isa = PBXBuildFile; fileRef = 04A13FBB56FC471F90FE1979 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */; };
+		53E92DB724804161B8F9A2E4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */ = {isa = PBXBuildFile; fileRef = A711D1B29C1D485589069FA2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */; };
+		53F6B204171F475DA0D8B8D0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */ = {isa = PBXBuildFile; fileRef = B37091FC032241AF9CB70482 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */; };
+		58D5B295AEA24CC4B239BCE1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */ = {isa = PBXBuildFile; fileRef = C35DE7C233AC4FB3A0475622 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */; };
+		5ECABE6C6D3147CB8A969AF6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */ = {isa = PBXBuildFile; fileRef = 6000AD145FD543698DDD7D47 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */; };
+		5FBA43181B84433E9866CA29 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */ = {isa = PBXBuildFile; fileRef = A8875FF438534FFB9CC544AD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */; };
+		5FEEE453D43A46F4B48200C0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 181EA8EB2DD94E5A9C044977 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */; };
+		60B425C802CD4C9681862C3B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */ = {isa = PBXBuildFile; fileRef = 940E9E7A5E0C459CA3716346 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */; };
+		63D615B72F33405A8D91C25C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */ = {isa = PBXBuildFile; fileRef = 05027F224053414E84710B5C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */; };
+		668F8743B65041368CFA28AE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 1F3D3F95516949BFA3225B65 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */; };
+		69000DBF42404EB4AA9A2676 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */ = {isa = PBXBuildFile; fileRef = 747F0E6EC4824B448E3751AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */; };
+		6A08905F034143E6B9105794 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */ = {isa = PBXBuildFile; fileRef = 7E873BF0CEB04E6196ADFB02 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */; };
+		6C151841A7B446C68F953497 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */ = {isa = PBXBuildFile; fileRef = 9EBE1677B09E4FAF9EBFBE73 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */; };
+		6C47A86CF5714835BEB32216 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */ = {isa = PBXBuildFile; fileRef = 3287F01F25CC4F768858E96E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */; };
+		6D7A0894F3444680B3ADCC23 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 7EBCBFDB27494A0E8C148C8C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */; };
+		70E7B42F7C2D41C1930FE8CB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */ = {isa = PBXBuildFile; fileRef = 86AAA93E543443F8A659F54E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */; };
+		7159AB3ED31C4363BC2BB83F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */ = {isa = PBXBuildFile; fileRef = AB323A870C6046359C9EFC9F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */; };
+		737A4D805BAB4C0BBA5100FE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */ = {isa = PBXBuildFile; fileRef = A7981C84BB79435EBB139677 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */; };
+		75967F37BEB6489187EACE46 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 4F65D66E82BF417AA701C14C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */; };
+		7602DFCA7F47408AABCF1C94 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */ = {isa = PBXBuildFile; fileRef = E0DF65A0C08D4A77B0070FF6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */; };
+		77A81C1ECE3B42AF8F3BF5E4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 4D1B48B8B7CF47248F654EF4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */; };
+		7AA99310D3704C04A7098DA6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 20119FA76E16435FBDA7B4C3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */; };
+		7CE9A9E00935463FB065B52C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */ = {isa = PBXBuildFile; fileRef = 36956D6C6E5B4654A37203BD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */; };
+		7E3BFC33EC264B8BB55C854F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */ = {isa = PBXBuildFile; fileRef = 1E7F9CA649E74D01BBA4A0DC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */; };
+		7E3F5AC4CE1F49E5B0F63E92 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */ = {isa = PBXBuildFile; fileRef = DDE01340741641C781C1A638 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */; };
+		813ED5CF1B6B41D18C2CA37B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 235F224438B94F45B5461C32 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		82389B4A51AE46079E137BBE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */ = {isa = PBXBuildFile; fileRef = 799D5537DC0F4F38BE387478 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */; };
+		828FB0DC74DE47ADBF76D7F3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */ = {isa = PBXBuildFile; fileRef = FD377DA0447C4B0CB875617F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */; };
+		83665E3B9B1D486787B8AF9B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */ = {isa = PBXBuildFile; fileRef = AD94E7D0D7554C1598EBC149 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */; };
+		86C17282D1CF4AA9985B131A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */ = {isa = PBXBuildFile; fileRef = 1E9EE6E4B4E14ABC87869993 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */; };
+		8A2583AEF0394BDBB85862CE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */ = {isa = PBXBuildFile; fileRef = A9B1C53A8EBE400CB867B301 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */; };
+		8A8E52FCB0CA4D3CA3212FDA /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */ = {isa = PBXBuildFile; fileRef = FA4FA01DBA0B4F3E8CE686F9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */; };
+		8D6C25F5D7F04CB29EF55DBA /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 1C005A6BA58945B2A23DB695 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */; };
+		8E49B69D8CF5454084D44DF2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */ = {isa = PBXBuildFile; fileRef = 149A80ACB3E34AC6BEED7ADD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */; };
+		8ED03E78C3624F62BBD3B2C9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */ = {isa = PBXBuildFile; fileRef = CEC7CB0981B345C58F5BDED3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */; };
+		93009D53641D483CB8A94636 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */ = {isa = PBXBuildFile; fileRef = CE4795DB648140358C66DBAB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */; };
+		93143D69E4A54DB482C1C2EF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */ = {isa = PBXBuildFile; fileRef = E996762043A24201954C8012 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */; };
+		935131ACC56D4A79BE7FF9D0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 7B28FA71E7DC4D57B1698A92 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */; };
+		94C867A4B3424C19B5C336B3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */ = {isa = PBXBuildFile; fileRef = CD31738C414B4A188E045A34 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */; };
+		9517696CF0B0428D9763A323 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */ = {isa = PBXBuildFile; fileRef = 726059C29C7B40CC9D4BC9D6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */; };
+		9534BE599ACF403FBD388429 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 575F0F6D2F8A49C39565BE32 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */; };
+		9B6AE25FF7D7403D942E8CED /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 7A90BC421C794F788FA665E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */; };
+		9BAAE3FA9FC1494FB83E71F7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */ = {isa = PBXBuildFile; fileRef = 917C04D42871474984FECEAE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */; };
+		9C7BC9EE049A47D6A916DCE5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 6E9FD534050942389A3A0384 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */; };
+		9CC01C06734543A6BCB28912 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */ = {isa = PBXBuildFile; fileRef = 0B9665879BF043E8ADC2062D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */; };
+		9CC700DD412F42B082DA8AB4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */ = {isa = PBXBuildFile; fileRef = 7DF560769A784ACAB72B7AA6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */; };
+		9EE076C4A8314BD1B8C8BEA7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */ = {isa = PBXBuildFile; fileRef = 39755B05221F49FFB618F7CF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */; };
+		A053CB388651461F8E3AB756 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */ = {isa = PBXBuildFile; fileRef = AD83A921F0B8455DA346B9D9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */; };
+		A087DFDF3EE64C648359B50C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */ = {isa = PBXBuildFile; fileRef = D6E5F22C0D0B469995E9A3C9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */; };
+		A40B31306DAC44E9A2B57E85 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */ = {isa = PBXBuildFile; fileRef = 159990780D344C4A8497E8A4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */; };
+		A432AA724BAD4AA5BA48DADD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */ = {isa = PBXBuildFile; fileRef = C72A7D11CC794C3D9417CA59 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */; };
+		A45A857679B74E90B3E27439 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 263F9CF1E4784153B01BC73E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */; };
+		A6DE356C453C463585EC6585 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */ = {isa = PBXBuildFile; fileRef = 15382397FAB3406CAF47A2C2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */; };
+		A8CCD4C8FA554FF19D15AD39 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */ = {isa = PBXBuildFile; fileRef = 74EBA9B0DAA34D96B0A32671 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */; };
+		ABE2A209F2F347DDA6A41715 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = D90CA1412B3B45199CA9678A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */; };
+		AC389D7EA96E457E88A4CB7F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */ = {isa = PBXBuildFile; fileRef = 1EFC2E21730E47289F8BF0B9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */; };
+		ADF6E153A53B4F6E8A8BEACC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 87AF90279849482E92AC8B72 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */; };
+		AE309B74B4D04303B8C25945 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */ = {isa = PBXBuildFile; fileRef = A9A1440887E8442B8215F2BC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */; };
+		AF439354125048C69B7BDA4D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */ = {isa = PBXBuildFile; fileRef = 881E0BC266184AABB6B98DA1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */; };
+		B09B22F887CB423CBD40D085 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */ = {isa = PBXBuildFile; fileRef = 1F071B529DEB409FA9DFB889 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */; };
+		B284766A17EA4C58A43F3696 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */ = {isa = PBXBuildFile; fileRef = 705EC158891643E59E8B6253 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */; };
+		B75D13FC60474FB68283331B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */ = {isa = PBXBuildFile; fileRef = 7A4920AC49284BDF8BB42461 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */; };
+		BCD18C487D68472E9E34BC73 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 192701C47830471494D8FB43 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */; };
+		BF2CD1017658423587805CDA /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */ = {isa = PBXBuildFile; fileRef = D0BD614AB472480BB31694A0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */; };
+		BF366EF63E334451A25905C5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */ = {isa = PBXBuildFile; fileRef = 2B9EC0CD7F024079A8FFBE4C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */; };
+		BF8A2AA3E90945CC8F1F518E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */ = {isa = PBXBuildFile; fileRef = 4F3D6E78B0474B0599BD4AF5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */; };
+		C157CFC8C0DF4AE8B8FAABA3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */ = {isa = PBXBuildFile; fileRef = 0EC56751F2FD4EA29E8E8460 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */; };
+		C197F961C36A485C901AAA67 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */ = {isa = PBXBuildFile; fileRef = FEB288B6CA2E449A8C55F253 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */; };
+		C2583D8D3A2B43129E99948D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */ = {isa = PBXBuildFile; fileRef = 7FBFB47E126746E59129288A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */; };
+		C562AF480D0D4967AACEDCDD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */ = {isa = PBXBuildFile; fileRef = 6F1C320CDCD842109CC5C877 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */; };
+		C68B22EC3A984E6DB62C0549 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */ = {isa = PBXBuildFile; fileRef = 8536D5F307E64FBE857FDAC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */; };
+		C785BBAED837475CA59FE3ED /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 91FDFC0A60ED4819A5D0F1B7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */; };
+		C7933892DD424D10B5CD3160 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */ = {isa = PBXBuildFile; fileRef = 5D1E030A88004324969F5576 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */; };
+		C90A258795074C30BC7CEEB1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */ = {isa = PBXBuildFile; fileRef = 1C5B415DF0104F08839F1C6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */; };
+		CBA3FED1028542CE9313E046 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */ = {isa = PBXBuildFile; fileRef = A0F6E2151DFB4004AE199635 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */; };
+		CD6560BCD2454F81B6ECFE9C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */ = {isa = PBXBuildFile; fileRef = CF0E48655F3F40A88F2F1E14 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */; };
+		CED2D922777A4548A80DBD42 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */ = {isa = PBXBuildFile; fileRef = 92E4C100E78D4E1293EF6E82 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */; };
+		D0BB6C57754E45EA947315DC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */ = {isa = PBXBuildFile; fileRef = 6554888DA1C748C199145EFF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */; };
+		D1B17BA6ED3747ECA44A097E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */ = {isa = PBXBuildFile; fileRef = D8126C1A96884738B2BA8E7A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */; };
+		D20C777E21B9473B85A3E185 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */ = {isa = PBXBuildFile; fileRef = C2765721F87841389804D54B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */; };
+		D326377B95ED4247A815BD0D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 1090B36A48A74CFEBE9822E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */; };
+		D462AFCF1F5646BD8258A894 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */ = {isa = PBXBuildFile; fileRef = E347BA935F964579827A5C20 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */; };
+		D4F277F8593D485E82EC7B53 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */ = {isa = PBXBuildFile; fileRef = F6BDB6050D284B988826A8B4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */; };
+		D63DBF22542A4363928BEE28 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */ = {isa = PBXBuildFile; fileRef = D374F0A45EAC42AFA086960C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */; };
+		D8AA970913DB45E49CE72664 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */ = {isa = PBXBuildFile; fileRef = FA8192559FD942DB9C9493E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */; };
+		DA0885AE648F47AF811465C4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */ = {isa = PBXBuildFile; fileRef = C73DB52EE9864D8E9EB98C5B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */; };
+		DC7D1853F9364CBA8F2370FD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */ = {isa = PBXBuildFile; fileRef = 5318CC934095483986C23F1C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */; };
+		DE01BF3F480E4045B2372FAE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */ = {isa = PBXBuildFile; fileRef = 0EDFE92428B44913B1724B14 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */; };
+		E1EBB7B5A733487F84F74286 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */ = {isa = PBXBuildFile; fileRef = 3828FC89F0C5476684EA586D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */; };
+		E20EA3D1CB4D4CEBBFB51E9D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */ = {isa = PBXBuildFile; fileRef = 27F86ED9E69B47FD8C72752A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */; };
+		E356E907238E4778B00F3CC2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */ = {isa = PBXBuildFile; fileRef = 09BCA1C772204DC481744E5C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */; };
+		E53FC6336A3C47BE9B5C927F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */ = {isa = PBXBuildFile; fileRef = EC219EE0D69946789632969D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */; };
+		E55B47C03B5D4D22AD94FC43 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */ = {isa = PBXBuildFile; fileRef = 454C7F63238147F1ABA722C5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */; };
+		EF38E9F5FA3D4ABEB835D340 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */ = {isa = PBXBuildFile; fileRef = 4900BAAC8CFB4074B3343E4B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */; };
+		F06D5875615B4BC1BE013AA3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 54303C34CC544DADAE03AA6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */; };
+		F1123C5A6F1F4E8DA15AD3FA /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */ = {isa = PBXBuildFile; fileRef = 9896AB77440547A98CDE15E9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */; };
+		F2739D2B18234203BD6AEBBD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */ = {isa = PBXBuildFile; fileRef = 89D8C9F75D5E4ED6A3915CD1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */; };
+		F3E818609F3F4DC39E7BE005 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */ = {isa = PBXBuildFile; fileRef = 368A5501C7F8417EAA35F471 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */; };
+		F4245253B0034736B2095FF8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */ = {isa = PBXBuildFile; fileRef = CF8E53A05D554267B5FD1C93 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */; };
+		F4607A7F815D4435AD3C930F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */ = {isa = PBXBuildFile; fileRef = B305FD1A78384CCC90222FFE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */; };
+		F4718AD642E3460FA496FBB6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */ = {isa = PBXBuildFile; fileRef = AF634E36A95246C7B467EA5D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */; };
+		F49B29C48D904C428B98C8AF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */ = {isa = PBXBuildFile; fileRef = 03288DF187EB419198FB76A9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */; };
+		F6F2BE801BA34805A92BC4E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */ = {isa = PBXBuildFile; fileRef = D200312C1E0B4195B7E81850 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */; };
+		FAAAE429DA7F42A299D64772 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */ = {isa = PBXBuildFile; fileRef = 432B9D18FA2D4E9790EDDBC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */; };
+		FACA890435DD4165ACB67E77 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */ = {isa = PBXBuildFile; fileRef = F193C88A95904A50BA9B4EDD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */; };
+		FBE70FABF9F841B1BA69E35C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */ = {isa = PBXBuildFile; fileRef = DFB02DE7761A419EBE7B4B7D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */; };
+		FE9107296D9D45DFA3B83448 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */ = {isa = PBXBuildFile; fileRef = 245B227371654FB0AEF8423F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		7EA33E518379434B8D7720B2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B2AC3B35E42C400BBA17B1DA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1EDE7FE3600F4A31B1E95211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6E6EE27CEC48F29FBF2590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1464C22956384D579FE3FDC5;
+			remoteInfo = ZERO_CHECK;
+		};
+		4BB670B2E5E74BBD8AAEA239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6E6EE27CEC48F29FBF2590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B803DEFAA1DA4630A0CFDD51;
+			remoteInfo = "mda-vst3";
+		};
+		AE425A24F27C4012ADEC6972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6E6EE27CEC48F29FBF2590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1464C22956384D579FE3FDC5;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C11F9655E84A5C84BEADBE /* mda-vst3 */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "mda-vst3.bundle/Contents/MacOS/mda-vst3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03288DF187EB419198FB76A9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDegradeProcessor.h; path = source/mdaDegradeProcessor.h; sourceTree = SOURCE_ROOT; };
+		04A13FBB56FC471F90FE1979 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDX10Controller.h; path = source/mdaDX10Controller.h; sourceTree = SOURCE_ROOT; };
+		05027F224053414E84710B5C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaAmbienceController.cpp; path = source/mdaAmbienceController.cpp; sourceTree = SOURCE_ROOT; };
+		0661C45F571F46468EBA9CEB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDetuneController.h; path = source/mdaDetuneController.h; sourceTree = SOURCE_ROOT; };
+		074FF6CF52734AAF8A0B68E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLimiterProcessor.cpp; path = source/mdaLimiterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		09BCA1C772204DC481744E5C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDeEsserController.cpp; path = source/mdaDeEsserController.cpp; sourceTree = SOURCE_ROOT; };
+		0B9665879BF043E8ADC2062D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSplitterProcessor.h; path = source/mdaSplitterProcessor.h; sourceTree = SOURCE_ROOT; };
+		0EC56751F2FD4EA29E8E8460 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTrackerProcessor.h; path = source/mdaTrackerProcessor.h; sourceTree = SOURCE_ROOT; };
+		0EDFE92428B44913B1724B14 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaImageProcessor.h; path = source/mdaImageProcessor.h; sourceTree = SOURCE_ROOT; };
+		106C4748107248918D12CB2D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTestToneProcessor.h; path = source/mdaTestToneProcessor.h; sourceTree = SOURCE_ROOT; };
+		1090B36A48A74CFEBE9822E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDubDelayProcessor.cpp; path = source/mdaDubDelayProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		137B6582AFE442AE893880EB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLeslieController.h; path = source/mdaLeslieController.h; sourceTree = SOURCE_ROOT; };
+		149A80ACB3E34AC6BEED7ADD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDX10Controller.cpp; path = source/mdaDX10Controller.cpp; sourceTree = SOURCE_ROOT; };
+		15382397FAB3406CAF47A2C2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDynamicsController.cpp; path = source/mdaDynamicsController.cpp; sourceTree = SOURCE_ROOT; };
+		159990780D344C4A8497E8A4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaImageController.cpp; path = source/mdaImageController.cpp; sourceTree = SOURCE_ROOT; };
+		181EA8EB2DD94E5A9C044977 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSpecMeterProcessor.cpp; path = source/mdaSpecMeterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		192701C47830471494D8FB43 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLoudnessProcessor.cpp; path = source/mdaLoudnessProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		1B160C6AD307476B81EA604A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDynamicsController.h; path = source/mdaDynamicsController.h; sourceTree = SOURCE_ROOT; };
+		1B75AFDB656F4252B12DA383 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRePsychoController.h; path = source/mdaRePsychoController.h; sourceTree = SOURCE_ROOT; };
+		1C005A6BA58945B2A23DB695 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRingModProcessor.cpp; path = source/mdaRingModProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		1C5B415DF0104F08839F1C6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLeslieController.cpp; path = source/mdaLeslieController.cpp; sourceTree = SOURCE_ROOT; };
+		1E7F9CA649E74D01BBA4A0DC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBandistoProcessor.h; path = source/mdaBandistoProcessor.h; sourceTree = SOURCE_ROOT; };
+		1E9EE6E4B4E14ABC87869993 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBaseController.h; path = source/mdaBaseController.h; sourceTree = SOURCE_ROOT; };
+		1EFC2E21730E47289F8BF0B9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaJX10Controller.cpp; path = source/mdaJX10Controller.cpp; sourceTree = SOURCE_ROOT; };
+		1F071B529DEB409FA9DFB889 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		1F3D3F95516949BFA3225B65 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRePsychoProcessor.cpp; path = source/mdaRePsychoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		20119FA76E16435FBDA7B4C3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSubSynthProcessor.cpp; path = source/mdaSubSynthProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		235F224438B94F45B5461C32 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		245B227371654FB0AEF8423F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaOverdriveController.h; path = source/mdaOverdriveController.h; sourceTree = SOURCE_ROOT; };
+		263954AC6DA3409A9A14E015 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoProcessor.h; path = source/mdaPianoProcessor.h; sourceTree = SOURCE_ROOT; };
+		263F9CF1E4784153B01BC73E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRezFilterProcessor.cpp; path = source/mdaRezFilterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		27F86ED9E69B47FD8C72752A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdafactory.cpp; path = source/mdafactory.cpp; sourceTree = SOURCE_ROOT; };
+		2B9EC0CD7F024079A8FFBE4C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLeslieProcessor.h; path = source/mdaLeslieProcessor.h; sourceTree = SOURCE_ROOT; };
+		30759A858175444F9A6B66D0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDetuneProcessor.cpp; path = source/mdaDetuneProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		3287F01F25CC4F768858E96E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRePsychoController.cpp; path = source/mdaRePsychoController.cpp; sourceTree = SOURCE_ROOT; };
+		33611751C56F448EAFF33B53 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		368A5501C7F8417EAA35F471 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaEPianoController.cpp; path = source/mdaEPianoController.cpp; sourceTree = SOURCE_ROOT; };
+		36956D6C6E5B4654A37203BD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaThruZeroController.h; path = source/mdaThruZeroController.h; sourceTree = SOURCE_ROOT; };
+		3828FC89F0C5476684EA586D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDeEsserController.h; path = source/mdaDeEsserController.h; sourceTree = SOURCE_ROOT; };
+		38721FE176314AF89B258464 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaMultiBandController.h; path = source/mdaMultiBandController.h; sourceTree = SOURCE_ROOT; };
+		39755B05221F49FFB618F7CF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaAmbienceProcessor.h; path = source/mdaAmbienceProcessor.h; sourceTree = SOURCE_ROOT; };
+		432B9D18FA2D4E9790EDDBC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaJX10Processor.cpp; path = source/mdaJX10Processor.cpp; sourceTree = SOURCE_ROOT; };
+		454C7F63238147F1ABA722C5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoProcessor.h; path = source/mdaEPianoProcessor.h; sourceTree = SOURCE_ROOT; };
+		47ED2D79A8E642AAB31600C6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBandistoController.cpp; path = source/mdaBandistoController.cpp; sourceTree = SOURCE_ROOT; };
+		4900BAAC8CFB4074B3343E4B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDetuneProcessor.h; path = source/mdaDetuneProcessor.h; sourceTree = SOURCE_ROOT; };
+		4D1B48B8B7CF47248F654EF4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaPianoProcessor.cpp; path = source/mdaPianoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		4D969A58B3264FDE80E2B69D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTestToneProcessor.cpp; path = source/mdaTestToneProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		4DD02F725D294FD8A9F6766F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDX10Processor.cpp; path = source/mdaDX10Processor.cpp; sourceTree = SOURCE_ROOT; };
+		4EAF5C4F0C294E23A23915F0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaMultiBandController.cpp; path = source/mdaMultiBandController.cpp; sourceTree = SOURCE_ROOT; };
+		4F3D6E78B0474B0599BD4AF5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaStereoController.h; path = source/mdaStereoController.h; sourceTree = SOURCE_ROOT; };
+		4F65D66E82BF417AA701C14C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaImageProcessor.cpp; path = source/mdaImageProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		5318CC934095483986C23F1C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoController.h; path = source/mdaEPianoController.h; sourceTree = SOURCE_ROOT; };
+		54303C34CC544DADAE03AA6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaEPianoProcessor.cpp; path = source/mdaEPianoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		575F0F6D2F8A49C39565BE32 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBeatBoxProcessor.cpp; path = source/mdaBeatBoxProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		5C31D533D8354D4DA084D67E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRingModController.h; path = source/mdaRingModController.h; sourceTree = SOURCE_ROOT; };
+		5D1E030A88004324969F5576 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDX10Processor.h; path = source/mdaDX10Processor.h; sourceTree = SOURCE_ROOT; };
+		6000AD145FD543698DDD7D47 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSubSynthController.cpp; path = source/mdaSubSynthController.cpp; sourceTree = SOURCE_ROOT; };
+		64A6F74342AD47F3A2E5F480 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSplitterProcessor.cpp; path = source/mdaSplitterProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		6554888DA1C748C199145EFF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRezFilterController.h; path = source/mdaRezFilterController.h; sourceTree = SOURCE_ROOT; };
+		65D0CB89B94849A39CCFBF35 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDynamicsProcessor.cpp; path = source/mdaDynamicsProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		6DC62EC098324595A53839A1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaShepardProcessor.h; path = source/mdaShepardProcessor.h; sourceTree = SOURCE_ROOT; };
+		6E9FD534050942389A3A0384 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaMultiBandProcessor.cpp; path = source/mdaMultiBandProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		6F1C320CDCD842109CC5C877 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaImageController.h; path = source/mdaImageController.h; sourceTree = SOURCE_ROOT; };
+		705EC158891643E59E8B6253 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaStereoController.cpp; path = source/mdaStereoController.cpp; sourceTree = SOURCE_ROOT; };
+		726059C29C7B40CC9D4BC9D6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDelayController.cpp; path = source/mdaDelayController.cpp; sourceTree = SOURCE_ROOT; };
+		747F0E6EC4824B448E3751AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaStereoProcessor.h; path = source/mdaStereoProcessor.h; sourceTree = SOURCE_ROOT; };
+		74EBA9B0DAA34D96B0A32671 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaPianoController.cpp; path = source/mdaPianoController.cpp; sourceTree = SOURCE_ROOT; };
+		799D5537DC0F4F38BE387478 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = helpers.h; path = source/helpers.h; sourceTree = SOURCE_ROOT; };
+		7A4920AC49284BDF8BB42461 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoController.h; path = source/mdaPianoController.h; sourceTree = SOURCE_ROOT; };
+		7A90BC421C794F788FA665E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaThruZeroProcessor.cpp; path = source/mdaThruZeroProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		7B28FA71E7DC4D57B1698A92 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaOverdriveProcessor.cpp; path = source/mdaOverdriveProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		7B4F3D1DF7EF49E79C876604 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRePsychoProcessor.h; path = source/mdaRePsychoProcessor.h; sourceTree = SOURCE_ROOT; };
+		7C0D23FBAA1C4603B57C2787 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaShepardProcessor.cpp; path = source/mdaShepardProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		7DF560769A784ACAB72B7AA6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTrackerController.cpp; path = source/mdaTrackerController.cpp; sourceTree = SOURCE_ROOT; };
+		7E770D687DAE46BCAA7A0A6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDubDelayController.h; path = source/mdaDubDelayController.h; sourceTree = SOURCE_ROOT; };
+		7E873BF0CEB04E6196ADFB02 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDelayController.h; path = source/mdaDelayController.h; sourceTree = SOURCE_ROOT; };
+		7EBCBFDB27494A0E8C148C8C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTrackerProcessor.cpp; path = source/mdaTrackerProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		7F50AC42D7AA49A392D85BA9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7FBFB47E126746E59129288A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaShepardController.h; path = source/mdaShepardController.h; sourceTree = SOURCE_ROOT; };
+		8186C457224F4A6A9C55E2E1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTestToneController.cpp; path = source/mdaTestToneController.cpp; sourceTree = SOURCE_ROOT; };
+		8536D5F307E64FBE857FDAC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaEPianoData.h; path = source/mdaEPianoData.h; sourceTree = SOURCE_ROOT; };
+		855DFC5245004785A672704F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaPianoData.h; path = source/mdaPianoData.h; sourceTree = SOURCE_ROOT; };
+		86AAA93E543443F8A659F54E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBeatBoxProcessor.h; path = source/mdaBeatBoxProcessor.h; sourceTree = SOURCE_ROOT; };
+		8725AA4436894E218D57FD4E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDubDelayProcessor.h; path = source/mdaDubDelayProcessor.h; sourceTree = SOURCE_ROOT; };
+		87AF90279849482E92AC8B72 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaAmbienceProcessor.cpp; path = source/mdaAmbienceProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		881E0BC266184AABB6B98DA1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaThruZeroProcessor.h; path = source/mdaThruZeroProcessor.h; sourceTree = SOURCE_ROOT; };
+		8995F6CA23CE47B88B4B4F29 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDynamicsProcessor.h; path = source/mdaDynamicsProcessor.h; sourceTree = SOURCE_ROOT; };
+		89D8C9F75D5E4ED6A3915CD1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBaseProcessor.h; path = source/mdaBaseProcessor.h; sourceTree = SOURCE_ROOT; };
+		917C04D42871474984FECEAE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSplitterController.cpp; path = source/mdaSplitterController.cpp; sourceTree = SOURCE_ROOT; };
+		91FDFC0A60ED4819A5D0F1B7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTalkBoxProcessor.cpp; path = source/mdaTalkBoxProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		92E4C100E78D4E1293EF6E82 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDubDelayController.cpp; path = source/mdaDubDelayController.cpp; sourceTree = SOURCE_ROOT; };
+		940E9E7A5E0C459CA3716346 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTrackerController.h; path = source/mdaTrackerController.h; sourceTree = SOURCE_ROOT; };
+		9896AB77440547A98CDE15E9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTestToneController.h; path = source/mdaTestToneController.h; sourceTree = SOURCE_ROOT; };
+		9EBE1677B09E4FAF9EBFBE73 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaJX10Controller.h; path = source/mdaJX10Controller.h; sourceTree = SOURCE_ROOT; };
+		A0F6E2151DFB4004AE199635 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaOverdriveController.cpp; path = source/mdaOverdriveController.cpp; sourceTree = SOURCE_ROOT; };
+		A711D1B29C1D485589069FA2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRoundPanController.h; path = source/mdaRoundPanController.h; sourceTree = SOURCE_ROOT; };
+		A7981C84BB79435EBB139677 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLimiterController.h; path = source/mdaLimiterController.h; sourceTree = SOURCE_ROOT; };
+		A8875FF438534FFB9CC544AD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSplitterController.h; path = source/mdaSplitterController.h; sourceTree = SOURCE_ROOT; };
+		A9A1440887E8442B8215F2BC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaComboProcessor.h; path = source/mdaComboProcessor.h; sourceTree = SOURCE_ROOT; };
+		A9B1C53A8EBE400CB867B301 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBaseProcessor.cpp; path = source/mdaBaseProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		AB323A870C6046359C9EFC9F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRezFilterController.cpp; path = source/mdaRezFilterController.cpp; sourceTree = SOURCE_ROOT; };
+		AD3DB80971C7463CB5CA0D13 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaComboProcessor.cpp; path = source/mdaComboProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		AD517645489F43768137A15E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBandistoProcessor.cpp; path = source/mdaBandistoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		AD83A921F0B8455DA346B9D9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSpecMeterController.h; path = source/mdaSpecMeterController.h; sourceTree = SOURCE_ROOT; };
+		AD94E7D0D7554C1598EBC149 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDelayProcessor.h; path = source/mdaDelayProcessor.h; sourceTree = SOURCE_ROOT; };
+		AF634E36A95246C7B467EA5D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaThruZeroController.cpp; path = source/mdaThruZeroController.cpp; sourceTree = SOURCE_ROOT; };
+		B305FD1A78384CCC90222FFE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDitherProcessor.cpp; path = source/mdaDitherProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		B37091FC032241AF9CB70482 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDeEsserProcessor.cpp; path = source/mdaDeEsserProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		B62F504055CE4BAA8EB3DCD9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaTalkBoxController.cpp; path = source/mdaTalkBoxController.cpp; sourceTree = SOURCE_ROOT; };
+		C2765721F87841389804D54B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaJX10Processor.h; path = source/mdaJX10Processor.h; sourceTree = SOURCE_ROOT; };
+		C35DE7C233AC4FB3A0475622 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBandistoController.h; path = source/mdaBandistoController.h; sourceTree = SOURCE_ROOT; };
+		C72A7D11CC794C3D9417CA59 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaOverdriveProcessor.h; path = source/mdaOverdriveProcessor.h; sourceTree = SOURCE_ROOT; };
+		C73DB52EE9864D8E9EB98C5B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDitherProcessor.h; path = source/mdaDitherProcessor.h; sourceTree = SOURCE_ROOT; };
+		C80C85BB63654F38A964A40D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLoudnessController.h; path = source/mdaLoudnessController.h; sourceTree = SOURCE_ROOT; };
+		CB5371D64C194D81B8AEABB2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLeslieProcessor.cpp; path = source/mdaLeslieProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		CD31738C414B4A188E045A34 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaMultiBandProcessor.h; path = source/mdaMultiBandProcessor.h; sourceTree = SOURCE_ROOT; };
+		CE4795DB648140358C66DBAB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRingModProcessor.h; path = source/mdaRingModProcessor.h; sourceTree = SOURCE_ROOT; };
+		CEC7CB0981B345C58F5BDED3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLoudnessController.cpp; path = source/mdaLoudnessController.cpp; sourceTree = SOURCE_ROOT; };
+		CF0A6931F0D94CA7AF0110E8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRoundPanController.cpp; path = source/mdaRoundPanController.cpp; sourceTree = SOURCE_ROOT; };
+		CF0E48655F3F40A88F2F1E14 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDelayProcessor.cpp; path = source/mdaDelayProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		CF8E53A05D554267B5FD1C93 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaComboController.cpp; path = source/mdaComboController.cpp; sourceTree = SOURCE_ROOT; };
+		D0BD614AB472480BB31694A0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaParameter.cpp; path = source/mdaParameter.cpp; sourceTree = SOURCE_ROOT; };
+		D1D789FC6E0F452095357A38 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSubSynthController.h; path = source/mdaSubSynthController.h; sourceTree = SOURCE_ROOT; };
+		D200312C1E0B4195B7E81850 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRoundPanProcessor.h; path = source/mdaRoundPanProcessor.h; sourceTree = SOURCE_ROOT; };
+		D2167861012447D7856CC097 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSubSynthProcessor.h; path = source/mdaSubSynthProcessor.h; sourceTree = SOURCE_ROOT; };
+		D374F0A45EAC42AFA086960C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaBeatBoxController.h; path = source/mdaBeatBoxController.h; sourceTree = SOURCE_ROOT; };
+		D446FBB1827844868B410F6A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaParameter.h; path = source/mdaParameter.h; sourceTree = SOURCE_ROOT; };
+		D496D4AB00794918817B0A6C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBaseController.cpp; path = source/mdaBaseController.cpp; sourceTree = SOURCE_ROOT; };
+		D6E5F22C0D0B469995E9A3C9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRingModController.cpp; path = source/mdaRingModController.cpp; sourceTree = SOURCE_ROOT; };
+		D8126C1A96884738B2BA8E7A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDitherController.h; path = source/mdaDitherController.h; sourceTree = SOURCE_ROOT; };
+		D90CA1412B3B45199CA9678A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaStereoProcessor.cpp; path = source/mdaStereoProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		D9A367E5FDDB4986918D0B8E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDegradeProcessor.cpp; path = source/mdaDegradeProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		DD2B038494B44DBFAC1858F0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDetuneController.cpp; path = source/mdaDetuneController.cpp; sourceTree = SOURCE_ROOT; };
+		DDE01340741641C781C1A638 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaSpecMeterController.cpp; path = source/mdaSpecMeterController.cpp; sourceTree = SOURCE_ROOT; };
+		DFB02DE7761A419EBE7B4B7D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaRezFilterProcessor.h; path = source/mdaRezFilterProcessor.h; sourceTree = SOURCE_ROOT; };
+		E0DF65A0C08D4A77B0070FF6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDitherController.cpp; path = source/mdaDitherController.cpp; sourceTree = SOURCE_ROOT; };
+		E166B8A346C64F8598C87657 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDegradeController.h; path = source/mdaDegradeController.h; sourceTree = SOURCE_ROOT; };
+		E29765558B904E62A1B3088B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaAmbienceController.h; path = source/mdaAmbienceController.h; sourceTree = SOURCE_ROOT; };
+		E347BA935F964579827A5C20 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaDeEsserProcessor.h; path = source/mdaDeEsserProcessor.h; sourceTree = SOURCE_ROOT; };
+		E580ACA5E61343F19AD51016 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLoudnessProcessor.h; path = source/mdaLoudnessProcessor.h; sourceTree = SOURCE_ROOT; };
+		E996762043A24201954C8012 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaComboController.h; path = source/mdaComboController.h; sourceTree = SOURCE_ROOT; };
+		EC219EE0D69946789632969D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTalkBoxController.h; path = source/mdaTalkBoxController.h; sourceTree = SOURCE_ROOT; };
+		F02857E1159A4C34831D6AF9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaSpecMeterProcessor.h; path = source/mdaSpecMeterProcessor.h; sourceTree = SOURCE_ROOT; };
+		F193C88A95904A50BA9B4EDD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaShepardController.cpp; path = source/mdaShepardController.cpp; sourceTree = SOURCE_ROOT; };
+		F59C0CB6F0AD45E587291CB5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaTalkBoxProcessor.h; path = source/mdaTalkBoxProcessor.h; sourceTree = SOURCE_ROOT; };
+		F6BDB6050D284B988826A8B4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaLimiterController.cpp; path = source/mdaLimiterController.cpp; sourceTree = SOURCE_ROOT; };
+		FA4FA01DBA0B4F3E8CE686F9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaDegradeController.cpp; path = source/mdaDegradeController.cpp; sourceTree = SOURCE_ROOT; };
+		FA8192559FD942DB9C9493E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaRoundPanProcessor.cpp; path = source/mdaRoundPanProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		FD377DA0447C4B0CB875617F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mdaBeatBoxController.cpp; path = source/mdaBeatBoxController.cpp; sourceTree = SOURCE_ROOT; };
+		FEB288B6CA2E449A8C55F253 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdaLimiterProcessor.h; path = source/mdaLimiterProcessor.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4ECFB1357D34F1AAECBED47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12384A199F2045C780A4A577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EAF0F1BE44048ED801AF49E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				799D5537DC0F4F38BE387478 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/helpers.h */,
+				E29765558B904E62A1B3088B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.h */,
+				39755B05221F49FFB618F7CF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.h */,
+				C35DE7C233AC4FB3A0475622 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.h */,
+				1E7F9CA649E74D01BBA4A0DC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.h */,
+				1E9EE6E4B4E14ABC87869993 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.h */,
+				89D8C9F75D5E4ED6A3915CD1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.h */,
+				D374F0A45EAC42AFA086960C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.h */,
+				86AAA93E543443F8A659F54E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.h */,
+				E996762043A24201954C8012 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.h */,
+				A9A1440887E8442B8215F2BC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.h */,
+				04A13FBB56FC471F90FE1979 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.h */,
+				5D1E030A88004324969F5576 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.h */,
+				3828FC89F0C5476684EA586D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.h */,
+				E347BA935F964579827A5C20 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.h */,
+				E166B8A346C64F8598C87657 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.h */,
+				03288DF187EB419198FB76A9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.h */,
+				7E873BF0CEB04E6196ADFB02 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.h */,
+				AD94E7D0D7554C1598EBC149 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.h */,
+				0661C45F571F46468EBA9CEB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.h */,
+				4900BAAC8CFB4074B3343E4B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.h */,
+				D8126C1A96884738B2BA8E7A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.h */,
+				C73DB52EE9864D8E9EB98C5B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.h */,
+				7E770D687DAE46BCAA7A0A6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.h */,
+				8725AA4436894E218D57FD4E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.h */,
+				1B160C6AD307476B81EA604A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.h */,
+				8995F6CA23CE47B88B4B4F29 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.h */,
+				5318CC934095483986C23F1C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.h */,
+				8536D5F307E64FBE857FDAC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoData.h */,
+				454C7F63238147F1ABA722C5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.h */,
+				6F1C320CDCD842109CC5C877 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.h */,
+				0EDFE92428B44913B1724B14 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.h */,
+				9EBE1677B09E4FAF9EBFBE73 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.h */,
+				C2765721F87841389804D54B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.h */,
+				137B6582AFE442AE893880EB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.h */,
+				2B9EC0CD7F024079A8FFBE4C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.h */,
+				A7981C84BB79435EBB139677 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.h */,
+				FEB288B6CA2E449A8C55F253 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.h */,
+				C80C85BB63654F38A964A40D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.h */,
+				E580ACA5E61343F19AD51016 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.h */,
+				38721FE176314AF89B258464 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.h */,
+				CD31738C414B4A188E045A34 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.h */,
+				245B227371654FB0AEF8423F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.h */,
+				C72A7D11CC794C3D9417CA59 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.h */,
+				D446FBB1827844868B410F6A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.h */,
+				7A4920AC49284BDF8BB42461 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.h */,
+				855DFC5245004785A672704F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoData.h */,
+				263954AC6DA3409A9A14E015 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.h */,
+				1B75AFDB656F4252B12DA383 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.h */,
+				7B4F3D1DF7EF49E79C876604 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.h */,
+				6554888DA1C748C199145EFF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.h */,
+				DFB02DE7761A419EBE7B4B7D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.h */,
+				5C31D533D8354D4DA084D67E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.h */,
+				CE4795DB648140358C66DBAB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.h */,
+				A711D1B29C1D485589069FA2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.h */,
+				D200312C1E0B4195B7E81850 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.h */,
+				7FBFB47E126746E59129288A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.h */,
+				6DC62EC098324595A53839A1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.h */,
+				AD83A921F0B8455DA346B9D9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.h */,
+				F02857E1159A4C34831D6AF9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.h */,
+				A8875FF438534FFB9CC544AD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.h */,
+				0B9665879BF043E8ADC2062D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.h */,
+				4F3D6E78B0474B0599BD4AF5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.h */,
+				747F0E6EC4824B448E3751AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.h */,
+				D1D789FC6E0F452095357A38 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.h */,
+				D2167861012447D7856CC097 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.h */,
+				EC219EE0D69946789632969D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.h */,
+				F59C0CB6F0AD45E587291CB5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.h */,
+				9896AB77440547A98CDE15E9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.h */,
+				106C4748107248918D12CB2D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.h */,
+				36956D6C6E5B4654A37203BD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.h */,
+				881E0BC266184AABB6B98DA1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.h */,
+				940E9E7A5E0C459CA3716346 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.h */,
+				0EC56751F2FD4EA29E8E8460 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.h */,
+				1F071B529DEB409FA9DFB889 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		43C88E226F734A18901E660D = {
+			isa = PBXGroup;
+			children = (
+				E08A7A76898C4DA5B53553EB /* PlugIn-Examples */,
+				F90A5AC0E1274584BAE6A157 /* ALL_BUILD */,
+				B43B0DAFD6EA49E18EE98AA6 /* Products */,
+				12384A199F2045C780A4A577 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F75967BC7164D26B0233826 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8EFAA850CAFE4562804A280C /* mda-vst3 */ = {
+			isa = PBXGroup;
+			children = (
+				1EAF0F1BE44048ED801AF49E /* Header Files */,
+				AB4EA52FCDE34388807489B0 /* Source Files */,
+				33611751C56F448EAFF33B53 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */,
+			);
+			name = "mda-vst3";
+			sourceTree = "<group>";
+		};
+		AB4EA52FCDE34388807489B0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				05027F224053414E84710B5C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */,
+				87AF90279849482E92AC8B72 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */,
+				47ED2D79A8E642AAB31600C6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */,
+				AD517645489F43768137A15E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */,
+				D496D4AB00794918817B0A6C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */,
+				A9B1C53A8EBE400CB867B301 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */,
+				FD377DA0447C4B0CB875617F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */,
+				575F0F6D2F8A49C39565BE32 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */,
+				CF8E53A05D554267B5FD1C93 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */,
+				AD3DB80971C7463CB5CA0D13 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */,
+				149A80ACB3E34AC6BEED7ADD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */,
+				4DD02F725D294FD8A9F6766F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */,
+				09BCA1C772204DC481744E5C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */,
+				B37091FC032241AF9CB70482 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */,
+				FA4FA01DBA0B4F3E8CE686F9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */,
+				D9A367E5FDDB4986918D0B8E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */,
+				726059C29C7B40CC9D4BC9D6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */,
+				CF0E48655F3F40A88F2F1E14 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */,
+				DD2B038494B44DBFAC1858F0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */,
+				30759A858175444F9A6B66D0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */,
+				E0DF65A0C08D4A77B0070FF6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */,
+				B305FD1A78384CCC90222FFE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */,
+				92E4C100E78D4E1293EF6E82 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */,
+				1090B36A48A74CFEBE9822E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */,
+				15382397FAB3406CAF47A2C2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */,
+				65D0CB89B94849A39CCFBF35 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */,
+				368A5501C7F8417EAA35F471 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */,
+				54303C34CC544DADAE03AA6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */,
+				159990780D344C4A8497E8A4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */,
+				4F65D66E82BF417AA701C14C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */,
+				1EFC2E21730E47289F8BF0B9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */,
+				432B9D18FA2D4E9790EDDBC5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */,
+				1C5B415DF0104F08839F1C6F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */,
+				CB5371D64C194D81B8AEABB2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */,
+				F6BDB6050D284B988826A8B4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */,
+				074FF6CF52734AAF8A0B68E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */,
+				CEC7CB0981B345C58F5BDED3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */,
+				192701C47830471494D8FB43 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */,
+				4EAF5C4F0C294E23A23915F0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */,
+				6E9FD534050942389A3A0384 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */,
+				A0F6E2151DFB4004AE199635 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */,
+				7B28FA71E7DC4D57B1698A92 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */,
+				D0BD614AB472480BB31694A0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */,
+				74EBA9B0DAA34D96B0A32671 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */,
+				4D1B48B8B7CF47248F654EF4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */,
+				3287F01F25CC4F768858E96E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */,
+				1F3D3F95516949BFA3225B65 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */,
+				AB323A870C6046359C9EFC9F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */,
+				263F9CF1E4784153B01BC73E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */,
+				D6E5F22C0D0B469995E9A3C9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */,
+				1C005A6BA58945B2A23DB695 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */,
+				CF0A6931F0D94CA7AF0110E8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */,
+				FA8192559FD942DB9C9493E3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */,
+				F193C88A95904A50BA9B4EDD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */,
+				7C0D23FBAA1C4603B57C2787 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */,
+				DDE01340741641C781C1A638 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */,
+				181EA8EB2DD94E5A9C044977 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */,
+				917C04D42871474984FECEAE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */,
+				64A6F74342AD47F3A2E5F480 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */,
+				705EC158891643E59E8B6253 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */,
+				D90CA1412B3B45199CA9678A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */,
+				6000AD145FD543698DDD7D47 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */,
+				20119FA76E16435FBDA7B4C3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */,
+				B62F504055CE4BAA8EB3DCD9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */,
+				91FDFC0A60ED4819A5D0F1B7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */,
+				8186C457224F4A6A9C55E2E1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */,
+				4D969A58B3264FDE80E2B69D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */,
+				AF634E36A95246C7B467EA5D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */,
+				7A90BC421C794F788FA665E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */,
+				7DF560769A784ACAB72B7AA6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */,
+				7EBCBFDB27494A0E8C148C8C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */,
+				27F86ED9E69B47FD8C72752A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */,
+				235F224438B94F45B5461C32 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B43B0DAFD6EA49E18EE98AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C11F9655E84A5C84BEADBE /* mda-vst3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E08A7A76898C4DA5B53553EB /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				8EFAA850CAFE4562804A280C /* mda-vst3 */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		F90A5AC0E1274584BAE6A157 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7F75967BC7164D26B0233826 /* CMake Rules */,
+				7F50AC42D7AA49A392D85BA9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B803DEFAA1DA4630A0CFDD51 /* mda-vst3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C97DFB534D54766AC884A3B /* Build configuration list for PBXNativeTarget "mda-vst3" */;
+			buildPhases = (
+				0620253B905EDD25EB93C27F /* CMake PreBuild Rules */,
+				83042132BFF84999A943101B /* Sources */,
+				E4ECFB1357D34F1AAECBED47 /* Frameworks */,
+				115E173746B86C6AB47D36A6 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A7CFEB01C1446296D667DF /* PBXTargetDependency */,
+			);
+			name = "mda-vst3";
+			productName = "mda-vst3";
+			productReference = 01C11F9655E84A5C84BEADBE /* mda-vst3 */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6E6EE27CEC48F29FBF2590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
+			};
+			buildConfigurationList = 6D63B39FFCD7487A92D9A9A1 /* Build configuration list for PBXProject "smtg-vst3-mda" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7EA33E518379434B8D7720B2 /* Debug */,
+				B2AC3B35E42C400BBA17B1DA /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 43C88E226F734A18901E660D;
+			projectDirPath = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3";
+			projectRoot = "";
+			targets = (
+				630CC1C3A341409898B16D63 /* ALL_BUILD */,
+				1464C22956384D579FE3FDC5 /* ZERO_CHECK */,
+				B803DEFAA1DA4630A0CFDD51 /* mda-vst3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0620253B905EDD25EB93C27F /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/mda-vst3.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/mda-vst3.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		115E173746B86C6AB47D36A6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  codesign --force --verbose --sign - /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/mda-vst3.vst3
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.8.0.0 -path /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/mda-vst3.vst3 -compat /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/resource/vst3_compatibility.json -output /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  codesign -f -s - -v /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator started...
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Debug/validator /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/mda-vst3.vst3 
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Delete previous link...
+  rm -rf /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/mda-vst3.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Create new symlink...
+  ln -sv /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/mda-vst3.vst3 /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/mda-vst3.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Finished.
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  codesign --force --verbose --sign - /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/mda-vst3.vst3
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.8.0.0 -path /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/mda-vst3.vst3 -compat /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/resource/vst3_compatibility.json -output /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  codesign -f -s - -v /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/mda-vst3.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator started...
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Release/validator  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/mda-vst3.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Delete previous link...
+  rm -rf /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/mda-vst3.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Create new symlink...
+  ln -sv /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/mda-vst3.vst3 /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/mda-vst3.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Finished.
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6B7A0069EE7351133E78732C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  make -f /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  make -f /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A41D87B61D398E2FA0496BAA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83042132BFF84999A943101B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D615B72F33405A8D91C25C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceController.cpp */,
+				ADF6E153A53B4F6E8A8BEACC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaAmbienceProcessor.cpp */,
+				1B28EE1506F648CE9FA1E541 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoController.cpp */,
+				05BA680DE5A54C37BB222E82 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBandistoProcessor.cpp */,
+				050FA2C1812C4B87B8E0C653 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseController.cpp */,
+				8A2583AEF0394BDBB85862CE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBaseProcessor.cpp */,
+				828FB0DC74DE47ADBF76D7F3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxController.cpp */,
+				9534BE599ACF403FBD388429 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaBeatBoxProcessor.cpp */,
+				F4245253B0034736B2095FF8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboController.cpp */,
+				2D179A762F1B4DF3B1726194 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaComboProcessor.cpp */,
+				8E49B69D8CF5454084D44DF2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Controller.cpp */,
+				33668F05821A43A1AB28B7ED /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDX10Processor.cpp */,
+				E356E907238E4778B00F3CC2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserController.cpp */,
+				53F6B204171F475DA0D8B8D0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDeEsserProcessor.cpp */,
+				8A8E52FCB0CA4D3CA3212FDA /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeController.cpp */,
+				485434A7E0CA483BA946CCA7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDegradeProcessor.cpp */,
+				9517696CF0B0428D9763A323 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayController.cpp */,
+				CD6560BCD2454F81B6ECFE9C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDelayProcessor.cpp */,
+				05B895EBAF0441D6A69ABE7D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneController.cpp */,
+				298326C1088B4BBDA168F9C4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDetuneProcessor.cpp */,
+				7602DFCA7F47408AABCF1C94 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherController.cpp */,
+				F4607A7F815D4435AD3C930F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDitherProcessor.cpp */,
+				CED2D922777A4548A80DBD42 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayController.cpp */,
+				D326377B95ED4247A815BD0D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDubDelayProcessor.cpp */,
+				A6DE356C453C463585EC6585 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsController.cpp */,
+				3AD8E773E80B44029A9703E7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaDynamicsProcessor.cpp */,
+				F3E818609F3F4DC39E7BE005 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoController.cpp */,
+				F06D5875615B4BC1BE013AA3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaEPianoProcessor.cpp */,
+				A40B31306DAC44E9A2B57E85 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageController.cpp */,
+				75967F37BEB6489187EACE46 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaImageProcessor.cpp */,
+				AC389D7EA96E457E88A4CB7F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Controller.cpp */,
+				FAAAE429DA7F42A299D64772 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaJX10Processor.cpp */,
+				C90A258795074C30BC7CEEB1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieController.cpp */,
+				38153C0855324FD4A5017EAC /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLeslieProcessor.cpp */,
+				D4F277F8593D485E82EC7B53 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterController.cpp */,
+				455C37E63A0F4220B1AA63E5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLimiterProcessor.cpp */,
+				8ED03E78C3624F62BBD3B2C9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessController.cpp */,
+				BCD18C487D68472E9E34BC73 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaLoudnessProcessor.cpp */,
+				012BF2CD9152478FB2371B6D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandController.cpp */,
+				9C7BC9EE049A47D6A916DCE5 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaMultiBandProcessor.cpp */,
+				CBA3FED1028542CE9313E046 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveController.cpp */,
+				935131ACC56D4A79BE7FF9D0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaOverdriveProcessor.cpp */,
+				BF2CD1017658423587805CDA /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaParameter.cpp */,
+				A8CCD4C8FA554FF19D15AD39 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoController.cpp */,
+				77A81C1ECE3B42AF8F3BF5E4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaPianoProcessor.cpp */,
+				6C47A86CF5714835BEB32216 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoController.cpp */,
+				668F8743B65041368CFA28AE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRePsychoProcessor.cpp */,
+				7159AB3ED31C4363BC2BB83F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterController.cpp */,
+				A45A857679B74E90B3E27439 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRezFilterProcessor.cpp */,
+				A087DFDF3EE64C648359B50C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModController.cpp */,
+				8D6C25F5D7F04CB29EF55DBA /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRingModProcessor.cpp */,
+				2296A2AB9FA0474EA8F5C70B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanController.cpp */,
+				D8AA970913DB45E49CE72664 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaRoundPanProcessor.cpp */,
+				FACA890435DD4165ACB67E77 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardController.cpp */,
+				384E96451C594D2780A239C9 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaShepardProcessor.cpp */,
+				7E3F5AC4CE1F49E5B0F63E92 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterController.cpp */,
+				5FEEE453D43A46F4B48200C0 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSpecMeterProcessor.cpp */,
+				9BAAE3FA9FC1494FB83E71F7 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterController.cpp */,
+				246EFEA2F4B24E1FBF83251D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSplitterProcessor.cpp */,
+				B284766A17EA4C58A43F3696 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoController.cpp */,
+				ABE2A209F2F347DDA6A41715 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaStereoProcessor.cpp */,
+				5ECABE6C6D3147CB8A969AF6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthController.cpp */,
+				7AA99310D3704C04A7098DA6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaSubSynthProcessor.cpp */,
+				31D80A8898DE44B5865CA878 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxController.cpp */,
+				C785BBAED837475CA59FE3ED /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTalkBoxProcessor.cpp */,
+				19E0AA3E64BD43FC993A05CF /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneController.cpp */,
+				211B4EB548134DEFA973916E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTestToneProcessor.cpp */,
+				F4718AD642E3460FA496FBB6 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroController.cpp */,
+				9B6AE25FF7D7403D942E8CED /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaThruZeroProcessor.cpp */,
+				9CC700DD412F42B082DA8AB4 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerController.cpp */,
+				6D7A0894F3444680B3ADCC23 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdaTrackerProcessor.cpp */,
+				E20EA3D1CB4D4CEBBFB51E9D /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/mda-vst3/source/mdafactory.cpp */,
+				813ED5CF1B6B41D18C2CA37B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A7CFEB01C1446296D667DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1464C22956384D579FE3FDC5 /* ZERO_CHECK */;
+			targetProxy = AE425A24F27C4012ADEC6972 /* PBXContainerItemProxy */;
+		};
+		709BB88818BA4341BD35CB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B803DEFAA1DA4630A0CFDD51 /* mda-vst3 */;
+			targetProxy = 4BB670B2E5E74BBD8AAEA239 /* PBXContainerItemProxy */;
+		};
+		D21DDB96EBB142B9BFBC6CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1464C22956384D579FE3FDC5 /* ZERO_CHECK */;
+			targetProxy = 1EDE7FE3600F4A31B1E95211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		296CB372819F4FB295762EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",mda_vst3_EXPORTS,SMTG_MDA_VST2_COMPATIBILITY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk,"/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3","$(inherited)");
+				INFOPLIST_FILE = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/mda-vst3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libsdk.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libsdk_common.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libbase.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.mda-vst3";
+				PRODUCT_NAME = "mda-vst3";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build/mda-vst3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		2FEB51B28D95436FB4DBBD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+		4445157E0E1D4FF9BC882504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6F820C82DBC64A84B1EF6593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		846C9E245D5E4826BCF7AF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		96C94F16648C47C59265A677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D76C2639154E41DEA72CEF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E3E0426858CA4BFFAD3DEBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",mda_vst3_EXPORTS,SMTG_MDA_VST2_COMPATIBILITY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk,"/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3","$(inherited)");
+				INFOPLIST_FILE = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/mda-vst3/CMakeFiles/mda-vst3.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libsdk.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libbase.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.mda-vst3";
+				PRODUCT_NAME = "mda-vst3";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build/mda-vst3.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D63B39FFCD7487A92D9A9A1 /* Build configuration list for PBXProject "smtg-vst3-mda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEB51B28D95436FB4DBBD07 /* Debug */,
+				6F820C82DBC64A84B1EF6593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8DB342B7EAC9484D822F8319 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4445157E0E1D4FF9BC882504 /* Debug */,
+				846C9E245D5E4826BCF7AF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		950C2A2B1FC14A46AB080663 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76C2639154E41DEA72CEF57 /* Debug */,
+				96C94F16648C47C59265A677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C97DFB534D54766AC884A3B /* Build configuration list for PBXNativeTarget "mda-vst3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E0426858CA4BFFAD3DEBD5 /* Debug */,
+				296CB372819F4FB295762EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6E6EE27CEC48F29FBF2590 /* Project object */;
+}

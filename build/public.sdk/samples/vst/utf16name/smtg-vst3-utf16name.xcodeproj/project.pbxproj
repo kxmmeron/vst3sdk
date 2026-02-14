@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1464C22956384D579FE3FDC5 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA9EF8D71CE84B1D9839C645 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EFBEDAA89962392921FC4F7E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		630CC1C3A341409898B16D63 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3E8999621CB547A58FB55D45 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				97A6ED97310BC1F685A8DEDC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2BCB150E4D7B49609E7D657C /* PBXTargetDependency */,
+				46C1171AD1CD47D2BA90DB64 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		102BCA6F5FC6449DB88DF71C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */ = {isa = PBXBuildFile; fileRef = 7E0A34D59A2E4572AE5ECBE1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */; };
+		17616045321047EFAD5626E2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */ = {isa = PBXBuildFile; fileRef = ED10012819C546769369F131 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */; };
+		47FE7D5E6A6E41B0A5DABB10 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */ = {isa = PBXBuildFile; fileRef = A73390743D784FABB94F0C97 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */; };
+		5CFDCAA6D56B4F47B20E5BB8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */ = {isa = PBXBuildFile; fileRef = 712D6CFFD8574D2CB7C932FE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */; };
+		6341ED19FF114CE88846E40A /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 51AA635959C1405EA71805DD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */; };
+		78E09419F7174CA4B6E6C65B /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/README.md */ = {isa = PBXBuildFile; fileRef = 003AE860526D4F7497F4E7AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/README.md */; };
+		860018155AD64ABA975F1F16 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */ = {isa = PBXBuildFile; fileRef = DA478B8D4E0E44D5AAE07D50 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */; };
+		A2AA6473013541F6B66373DD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 7713F070160A4B9286901DC8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		EDEECCAB094943D289206612 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */ = {isa = PBXBuildFile; fileRef = 6E413C0104D84D31923018E8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */; };
+		F23A0564C9B34B54B28E701F /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */ = {isa = PBXBuildFile; fileRef = 18A59A2471194A55A8633D9E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2333996CDFDC4C5E86692911 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5117687EBA2E401EAB69767D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0F6CD63AD3164BA88E9626F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E9FB216D994995B9C4A764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1464C22956384D579FE3FDC5;
+			remoteInfo = ZERO_CHECK;
+		};
+		1B545D11FF744C22B360D70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E9FB216D994995B9C4A764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F0DD5E028E34B0FA293452B;
+			remoteInfo = "utf16-name";
+		};
+		436567E88A3B481F97369B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E9FB216D994995B9C4A764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1464C22956384D579FE3FDC5;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003AE860526D4F7497F4E7AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		0BA5006A7EE94B3C9F72207E /* utf16-name */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "utf16-name.bundle/Contents/MacOS/utf16-name"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A59A2471194A55A8633D9E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		51AA635959C1405EA71805DD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6E413C0104D84D31923018E8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf16namecids.h; path = source/utf16namecids.h; sourceTree = SOURCE_ROOT; };
+		712D6CFFD8574D2CB7C932FE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf16namecontroller.h; path = source/utf16namecontroller.h; sourceTree = SOURCE_ROOT; };
+		7713F070160A4B9286901DC8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		7765C523A4754C2E91EB60F3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E0A34D59A2E4572AE5ECBE1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf16nameentry.cpp; path = source/utf16nameentry.cpp; sourceTree = SOURCE_ROOT; };
+		A73390743D784FABB94F0C97 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf16namecontroller.cpp; path = source/utf16namecontroller.cpp; sourceTree = SOURCE_ROOT; };
+		DA478B8D4E0E44D5AAE07D50 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf16nameprocessor.h; path = source/utf16nameprocessor.h; sourceTree = SOURCE_ROOT; };
+		ED10012819C546769369F131 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf16nameprocessor.cpp; path = source/utf16nameprocessor.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF2472E2F134CC3A540FB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E909AF67F1044A5A31CB0AD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				51B8052709F44E0194CAFF9E /* CMake Rules */,
+				7765C523A4754C2E91EB60F3 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3773EF58956A45C49DB079E7 /* utf16-name */ = {
+			isa = PBXGroup;
+			children = (
+				C3E40C9A3C1F4ED0AFA30728 /* Header Files */,
+				FEDEEED4E28844DFAA7121E3 /* Source Files */,
+				51AA635959C1405EA71805DD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */,
+				003AE860526D4F7497F4E7AB /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/README.md */,
+			);
+			name = "utf16-name";
+			sourceTree = "<group>";
+		};
+		41C94B4D04684537A62FFA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA5006A7EE94B3C9F72207E /* utf16-name */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51B8052709F44E0194CAFF9E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		56D6417675A5490584005F74 = {
+			isa = PBXGroup;
+			children = (
+				B2978E1080B844FA9E572B04 /* PlugIn-Examples */,
+				0E909AF67F1044A5A31CB0AD /* ALL_BUILD */,
+				41C94B4D04684537A62FFA4A /* Products */,
+				FC361AA40E9F42239F498F0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2978E1080B844FA9E572B04 /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				3773EF58956A45C49DB079E7 /* utf16-name */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		C3E40C9A3C1F4ED0AFA30728 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E413C0104D84D31923018E8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */,
+				712D6CFFD8574D2CB7C932FE /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */,
+				DA478B8D4E0E44D5AAE07D50 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */,
+				18A59A2471194A55A8633D9E /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FC361AA40E9F42239F498F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEDEEED4E28844DFAA7121E3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73390743D784FABB94F0C97 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */,
+				7E0A34D59A2E4572AE5ECBE1 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */,
+				ED10012819C546769369F131 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */,
+				7713F070160A4B9286901DC8 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F0DD5E028E34B0FA293452B /* utf16-name */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5363E4633EF471A8E65F1FE /* Build configuration list for PBXNativeTarget "utf16-name" */;
+			buildPhases = (
+				6312BB065A328750FA827802 /* CMake PreBuild Rules */,
+				128D2395470A4A7C8B4E12C3 /* Sources */,
+				3FF2472E2F134CC3A540FB4E /* Frameworks */,
+				2856EC9F33458A4D6C105DD1 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D47F4B44F32A4461904873A9 /* PBXTargetDependency */,
+			);
+			name = "utf16-name";
+			productName = "utf16-name";
+			productReference = 0BA5006A7EE94B3C9F72207E /* utf16-name */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E9FB216D994995B9C4A764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
+			};
+			buildConfigurationList = 7CF8E32E119D4B5CA91DDF6B /* Build configuration list for PBXProject "smtg-vst3-utf16name" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5117687EBA2E401EAB69767D /* Debug */,
+				2333996CDFDC4C5E86692911 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 56D6417675A5490584005F74;
+			projectDirPath = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name;
+			projectRoot = "";
+			targets = (
+				630CC1C3A341409898B16D63 /* ALL_BUILD */,
+				1464C22956384D579FE3FDC5 /* ZERO_CHECK */,
+				7F0DD5E028E34B0FA293452B /* utf16-name */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2856EC9F33458A4D6C105DD1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  codesign --force --verbose --sign - /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/utf16-name.vst3
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.8.0.0 -path /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/utf16-name.vst3 -output /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  codesign -f -s - -v /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator started...
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Debug/validator /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/utf16-name.vst3 
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Delete previous link...
+  rm -rf /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/utf16-name.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Create new symlink...
+  ln -sv /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/utf16-name.vst3 /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/utf16-name.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Finished.
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  codesign --force --verbose --sign - /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/utf16-name.vst3
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.8.0.0 -path /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/utf16-name.vst3 -output /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  codesign -f -s - -v /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator started...
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/bin/Release/validator  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/utf16-name.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Delete previous link...
+  rm -rf /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/utf16-name.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Create new symlink...
+  ln -sv /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/utf16-name.vst3 /Users/kammeronrandle/Library/Audio/Plug-Ins/VST3/utf16-name.vst3
+  /Applications/CMake.app/Contents/bin/cmake -E echo [SMTG] Finished.
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6312BB065A328750FA827802 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug/utf16-name.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release/utf16-name.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		97A6ED97310BC1F685A8DEDC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EFBEDAA89962392921FC4F7E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  make -f /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name
+  make -f /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128D2395470A4A7C8B4E12C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FE7D5E6A6E41B0A5DABB10 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */,
+				102BCA6F5FC6449DB88DF71C /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */,
+				17616045321047EFAD5626E2 /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */,
+				A2AA6473013541F6B66373DD /* /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BCB150E4D7B49609E7D657C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F0DD5E028E34B0FA293452B /* utf16-name */;
+			targetProxy = 1B545D11FF744C22B360D70C /* PBXContainerItemProxy */;
+		};
+		46C1171AD1CD47D2BA90DB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1464C22956384D579FE3FDC5 /* ZERO_CHECK */;
+			targetProxy = 0F6CD63AD3164BA88E9626F4 /* PBXContainerItemProxy */;
+		};
+		D47F4B44F32A4461904873A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1464C22956384D579FE3FDC5 /* ZERO_CHECK */;
+			targetProxy = 436567E88A3B481F97369B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18DBD76AF48F4A78986BEF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		463AF601A1B74B9199574C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4A359390B1804D69AC07C708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		68DF6EE69E1342BFBBECF3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+		9ED00994869A46A89161D439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",utf16_name_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name,"$(inherited)");
+				INFOPLIST_FILE = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/utf16-name.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libsdk.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libsdk_common.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libbase.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.utf16-name";
+				PRODUCT_NAME = "utf16-name";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build/utf16-name.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		AB901918A56F4091AAC7E3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",utf16_name_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name,"$(inherited)");
+				INFOPLIST_FILE = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/utf16-name.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libsdk.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libbase.a,/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.utf16-name";
+				PRODUCT_NAME = "utf16-name";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/build/utf16-name.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		BB8C6896E97D4F3797B4C08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F2E83D3C19D844E9A7B58E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E8999621CB547A58FB55D45 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463AF601A1B74B9199574C3D /* Debug */,
+				BB8C6896E97D4F3797B4C08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CF8E32E119D4B5CA91DDF6B /* Build configuration list for PBXProject "smtg-vst3-utf16name" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DF6EE69E1342BFBBECF3DC /* Debug */,
+				4A359390B1804D69AC07C708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA9EF8D71CE84B1D9839C645 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DBD76AF48F4A78986BEF3C /* Debug */,
+				F2E83D3C19D844E9A7B58E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5363E4633EF471A8E65F1FE /* Build configuration list for PBXNativeTarget "utf16-name" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB901918A56F4091AAC7E3CF /* Debug */,
+				9ED00994869A46A89161D439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E9FB216D994995B9C4A764 /* Project object */;
+}

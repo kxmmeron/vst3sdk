@@ -1,0 +1,2 @@
+/Users/kammeronrandle/Library/CloudStorage/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/CMakeFiles/CheckCXX/CMakeFiles/ALL_BUILD.dir
+/Users/kammeronrandle/Library/CloudStorage/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/build/CMakeFiles/CheckCXX/CMakeFiles/ZERO_CHECK.dir

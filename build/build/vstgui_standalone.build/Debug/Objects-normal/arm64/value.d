@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/value.cpp \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/value.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../ivalue.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../fwd.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/cstring.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/vstguifwd.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/vstguibase.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/vstguidebug.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/optional.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/platform/iplatformstring.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/platform/../vstguibase.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../interface.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/algorithm.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/optional.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/vstguidebug.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/dispatchlist.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/ivaluelistener.h \
+  /Users/kammeronrandle/Dropbox/Documents/Projects/melody/melodyFramework/external/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/ivalue.h
