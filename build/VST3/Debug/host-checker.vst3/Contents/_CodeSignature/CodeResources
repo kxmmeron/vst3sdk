@@ -16,6 +16,10 @@
 		<data>
 		G19HTZPKwjs7AymI6WweaG++nws=
 		</data>
+		<key>Resources/moduleinfo.json</key>
+		<data>
+		eirf22a3RhDI/Wun2IBMvCtPyWA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -38,6 +42,13 @@
 			<key>hash2</key>
 			<data>
 			60TzwGCpFKX7BDl03j0Qz/gtcdD8Z8LFHZQ1JB5oFIE=
+			</data>
+		</dict>
+		<key>Resources/moduleinfo.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BS/lnSu1+uo0cJsXGF/Xh6N4bRpEl1q5I95pvO0iSJY=
 			</data>
 		</dict>
 	</dict>
